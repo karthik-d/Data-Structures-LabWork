@@ -1,0 +1,1164 @@
+Script started on 2020-09-18 13:14:58+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="86" LINES="44"]
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ ./CircularQueueAppl 
+
+1-Add Job
+2-Finish Job
+3-Display Waiting Jobs
+Enter Choice: 1
+
+Enter Job Number: 1
+Enter CPU Burst Time: 2
+
+Job added to Queue 1
+It has the same waiting time as Queue 2
+
+More Operations? (y/n): y
+
+1-Add Job
+2-Finish Job
+3-Display Waiting Jobs
+Enter Choice: 1
+
+Enter Job Number: 2
+Enter CPU Burst Time: 4
+
+Job added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+More Operations? (y/n): y
+
+1-Add Job
+2-Finish Job
+3-Display Waiting Jobs
+Enter Choice: 1
+
+Enter Job Number: 3
+Enter CPU Burst Time: 8
+
+Job added to Process Queue 1
+It is 2 ms faster than Queue 2
+
+More Operations? (y/n): y
+
+1-Add Job
+2-Finish Job
+3-Display Waiting Jobs
+Enter Choice: 1
+
+Enter Job Number: 4
+Enter CPU Burst Time: 5
+
+Job added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+More Operations? (y/n): y
+
+1-Add Job
+2-Finish Job
+3-Display Waiting Jobs
+Enter Choice: 1
+
+Enter Job Number: 5
+Enter CPU Burst Time: 2
+
+Job added to Process Queue 2
+It is 1 ms faster than Queue 1
+
+More Operations? (y/n): y
+
+1-Add Job
+2-Finish Job
+3-Display Waiting Jobs
+Enter Choice: 1
+
+Enter Job Number: 6
+Enter CPU Burst Time: 7
+
+Job added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+More Operations? (y/n): y
+
+1-Add Job
+2-Finish Job
+3-Display Waiting Jobs
+Enter Choice: 1
+
+Enter Job Number: 7
+Enter CPU Burst Time: 4
+
+Job added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+More Operations? (y/n): y
+
+1-Add Job
+2-Finish Job
+3-Display Waiting Jobs
+Enter Choice: 1
+
+Enter Job Number: 8
+Enter CPU Burst Time: 3
+
+Job added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+More Operations? (y/n): y
+
+1-Add Job
+2-Finish Job
+3-Display Waiting Jobs
+Enter Choice: 1
+
+Enter Job Number: 9
+Enter CPU Burst Time: 6
+
+Job added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+More Operations? (y/n): y
+
+1-Add Job
+2-Finish Job
+3-Display Waiting Jobs
+Enter Choice: 1
+
+Enter Job Number: 10
+Enter CPU Burst Time: 6
+
+Job added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+More Operations? (y/n): y
+
+1-Add Job
+2-Finish Job
+3-Display Waiting Jobs
+Enter Choice: 3
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job J1 - 2 ms
+Job J3 - 8 ms
+Job J6 - 7 ms
+Job J9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job J2 - 4 ms
+Job J4 - 5 ms
+Job J5 - 2 ms
+Job J7 - 4 ms
+Job J8 - 3 ms
+Job J10 - 6 ms
+-----------------
+REAR
+Total Process Time: 24
+
+More Operations? (y/n): y
+
+1-Add Job
+2-Finish Job
+3-Display Waiting Jobs
+Enter Choice: 2
+
+1-From Process Queue 1
+2-From Process Queue 2
+Enter Choice: 2
+
+Job J2 was completed
+Removed from Process Queue
+
+More Operations? (y/n): y
+
+1-Add Job
+2-Finish Job
+3-Display Waiting Jobs
+Enter Choice: 2
+
+1-From Process Queue 1
+2-From Process Queue 2
+Enter Choice: 2
+
+Job J4 was completed
+Removed from Process Queue
+
+More Operations? (y/n): y n y
+
+1-Add Job
+2-Finish Job
+3-Display Waiting Jobs
+Enter Choice: 3
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job J1 - 2 ms
+Job J3 - 8 ms
+Job J6 - 7 ms
+Job J9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job J5 - 2 ms
+Job J7 - 4 ms
+Job J8 - 3 ms
+Job J10 - 6 ms
+-----------------
+REAR
+Total Process Time: 15
+
+More Operations? (y/n): n
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ python3
+Python 3.7.3 (default, Dec 20 2019, 18:57:59) 
+[GCC 8.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> chr(i[K1)[K[K[K[K[K[Kord('1')
+49
+>>> ord('1')[1P')0')
+48
+>>> ord('0')
+[1]+  Stopped                 python3
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ exit
+exit
+There are stopped jobs.
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ exitpython3[K[K[K[K[K[K[Kgcc -o CircularQueueAppl CircularQueueAppl.c
+In file included from [01m[KCircularQueueAppl.c:2[m[K:
+[01m[KCircularQueueImpl.h:[m[K In function ‚Äò[01m[Kdequeue[m[K‚Äô:
+[01m[KCircularQueueImpl.h:50:16:[m[K [01;35m[Kwarning: [m[Kreturning ‚Äò[01m[Kint[m[K‚Äô from a function with return type ‚Äò[01m[Kchar *[m[K‚Äô makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+         return [01;35m[K-[m[K1;
+                [01;35m[K^[m[K
+[01m[KCircularQueueAppl.c:[m[K In function ‚Äò[01m[Kmain[m[K‚Äô:
+[01m[KCircularQueueAppl.c:10:27:[m[K [01;31m[Kerror: [m[Kconflicting types for ‚Äò[01m[Kjob_num[m[K‚Äô
+     int status, response, [01;31m[Kjob_num[m[K, cpu_time, time_diff;
+                           [01;31m[K^~~~~~~[m[K
+[01m[KCircularQueueAppl.c:8:11:[m[K [01;36m[Knote: [m[Kprevious definition of ‚Äò[01m[Kjob_num[m[K‚Äô was here
+     char *[01;36m[Kjob_num[m[K = NULL;
+           [01;36m[K^~~~~~~[m[K
+[01m[KCircularQueueAppl.c:13:17:[m[K [01;35m[Kwarning: [m[Kassignment to ‚Äò[01m[Kint[m[K‚Äô from ‚Äò[01m[Kchar *[m[K‚Äô makes integer from pointer without a cast [[01;35m[K-Wint-conversion[m[K]
+         job_num [01;35m[K=[m[K (char*)malloc(sizeof(char)*2);
+                 [01;35m[K^[m[K
+[01m[KCircularQueueAppl.c:14:9:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‚Äò[01m[K*[m[K‚Äô (have ‚Äò[01m[Kint[m[K‚Äô)
+         [01;31m[K*(job_num)[m[K = 'J';
+         [01;31m[K^~~~~~~~~~[m[K
+[01m[KCircularQueueAppl.c:15:9:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‚Äò[01m[K*[m[K‚Äô (have ‚Äò[01m[Kint[m[K‚Äô)
+         [01;31m[K*(job_num)[m[K = (char)(i+48);
+         [01;31m[K^~~~~~~~~~[m[K
+[01m[KCircularQueueAppl.c:16:39:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‚Äò[01m[KcreateDataNode[m[K‚Äô makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+         enqueue(queue, createDataNode([01;35m[Kjob_num[m[K, burst_times[i-1]));
+                                       [01;35m[K^~~~~~~[m[K
+In file included from [01m[KCircularQueueAppl.c:2[m[K:
+[01m[KCircularQueueImpl.h:12:28:[m[K [01;36m[Knote: [m[Kexpected ‚Äò[01m[Kchar *[m[K‚Äô but argument is of type ‚Äò[01m[Kint[m[K‚Äô
+ Node* createDataNode([01;36m[Kchar *job_num[m[K, int cpu_time){
+                      [01;36m[K~~~~~~^~~~~~~[m[K
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ gcc -o CircularQueueAppl CircularQueueAppl.c
+In file included from [01m[KCircularQueueAppl.c:2[m[K:
+[01m[KCircularQueueImpl.h:[m[K In function ‚Äò[01m[Kdequeue[m[K‚Äô:
+[01m[KCircularQueueImpl.h:50:16:[m[K [01;35m[Kwarning: [m[Kreturning ‚Äò[01m[Kint[m[K‚Äô from a function with return type ‚Äò[01m[Kchar *[m[K‚Äô makes pointer from integer without a cast [[01;35m[K-Wint-conversion[m[K]
+         return [01;35m[K-[m[K1;
+                [01;35m[K^[m[K
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ gcc -o CircularQueueAppl CircularQueueAppl.c
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ ./CircularQueueAppl 
+
+Job  ”3ŸV added to Queue 1
+It has the same waiting time as Queue 2
+
+Job 2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job 3 added to Process Queue 1
+It is 2 ms faster than Queue 2
+
+Job 4 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job 5 added to Process Queue 2
+It is 1 ms faster than Queue 1
+
+Job 6 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job 7 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job 8 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job 9 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job : added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job J1 - 2 ms
+Job J3 - 8 ms
+Job J6 - 7 ms
+Job J9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23 ms
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job J2 - 4 ms
+Job J4 - 5 ms
+Job J5 - 2 ms
+Job J7 - 4 ms
+Job J8 - 3 ms
+Job J: - 6 ms
+-----------------
+REAR
+Total Process Time: 24 ms
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ ./CircularQueueAppl gcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10P./CircularQueueAppl 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Job  sTu≥U added to Queue 1
+It has the same waiting time as Queue 2
+
+Job 2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job 3 added to Process Queue 1
+It is 2 ms faster than Queue 2
+
+Job 4 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job 5 added to Process Queue 2
+It is 1 ms faster than Queue 1
+
+Job 6 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job 7 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job 8 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job 9 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job : added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job J1 - 2 ms
+Job J3 - 8 ms
+Job J6 - 7 ms
+Job J9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23 ms
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job J2 - 4 ms
+Job J4 - 5 ms
+Job J5 - 2 ms
+Job J7 - 4 ms
+Job J8 - 3 ms
+Job J: - 6 ms
+-----------------
+REAR
+Total Process Time: 24 ms
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ ./CircularQueueAppl gcc -o CircularQueueAppl CircularQueueAppl.c
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ gcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10P./CircularQueueAppl 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Job –Q»?ˇ added to Queue 1
+It has the same waiting time as Queue 2
+
+Job J2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J3 added to Process Queue 1
+It is 2 ms faster than Queue 2
+
+Job J4 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J5 added to Process Queue 2
+It is 1 ms faster than Queue 1
+
+Job J6 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J7 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J8 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J9 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J10 added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job JJ1 - 2 ms
+Job JJ3 - 8 ms
+Job JJ6 - 7 ms
+Job JJ9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23 ms
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job JJ2 - 4 ms
+Job JJ4 - 5 ms
+Job JJ5 - 2 ms
+Job JJ7 - 4 ms
+Job JJ8 - 3 ms
+Job JJ10 - 6 ms
+-----------------
+REAR
+Total Process Time: 24 ms
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ ./CircularQueueAppl gcc -o CircularQueueAppl CircularQueueAppl.c
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ gcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10P./CircularQueueAppl 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Job –&‰.¸ added to Queue 1
+It has the same waiting time as Queue 2
+
+Job J2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J3 added to Process Queue 1
+It is 2 ms faster than Queue 2
+
+Job J4 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J5 added to Process Queue 2
+It is 1 ms faster than Queue 1
+
+Job J6 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J7 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J8 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J9 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J10 added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job JJ1 - 2 ms
+Job JJ3 - 8 ms
+Job JJ6 - 7 ms
+Job JJ9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23 ms
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job JJ2 - 4 ms
+Job JJ4 - 5 ms
+Job JJ5 - 2 ms
+Job JJ7 - 4 ms
+Job JJ8 - 3 ms
+Job JJ10 - 6 ms
+-----------------
+REAR
+Total Process Time: 24 ms
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ ./CircularQueueAppl gcc -o CircularQueueAppl CircularQueueAppl.c
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ gcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10P./CircularQueueAppl 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Job ¿åÏ0˝ added to Queue 1
+It has the same waiting time as Queue 2
+
+Job J2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J3 added to Process Queue 1
+It is 2 ms faster than Queue 2
+
+Job J4 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J5 added to Process Queue 2
+It is 1 ms faster than Queue 1
+
+Job J6 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J7 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J8 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J9 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J10 added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job JJ1 - 2 ms
+Job JJ3 - 8 ms
+Job JJ6 - 7 ms
+Job JJ9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23 ms
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job JJ2 - 4 ms
+Job JJ4 - 5 ms
+Job JJ5 - 2 ms
+Job JJ7 - 4 ms
+Job JJ8 - 3 ms
+Job JJ10 - 6 ms
+-----------------
+REAR
+Total Process Time: 24 ms
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ ./CircularQueueAppl gcc -o CircularQueueAppl CircularQueueAppl.c
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ gcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10P./CircularQueueAppl 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Job   UEˇ added to Queue 1
+It has the same waiting time as Queue 2
+
+Job J2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J3 added to Process Queue 1
+It is 2 ms faster than Queue 2
+
+Job J4 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J5 added to Process Queue 2
+It is 1 ms faster than Queue 1
+
+Job J6 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J7 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J8 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J9 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J10 added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job J1 - 2 ms
+Job J3 - 8 ms
+Job J6 - 7 ms
+Job J9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23 ms
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job J2 - 4 ms
+Job J4 - 5 ms
+Job J5 - 2 ms
+Job J7 - 4 ms
+Job J8 - 3 ms
+Job J10 - 6 ms
+-----------------
+REAR
+Total Process Time: 24 ms
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ ./CircularQueueAppl gcc -o CircularQueueAppl CircularQueueAppl.c
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ gcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10P./CircularQueueAppl 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Job P-÷c¸ added to Queue 1
+It has the same waiting time as Queue 2
+
+Job J2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J4 added to Process Queue 1
+It is 2 ms faster than Queue 2
+
+Job J4 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J5 added to Process Queue 2
+It is 1 ms faster than Queue 1
+
+Job J7 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J7 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J8 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J10 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J10 added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job J1 - 2 ms
+Job J3 - 8 ms
+Job J6 - 7 ms
+Job J9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23 ms
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job J2 - 4 ms
+Job J4 - 5 ms
+Job J5 - 2 ms
+Job J7 - 4 ms
+Job J8 - 3 ms
+Job J10 - 6 ms
+-----------------
+REAR
+Total Process Time: 24 ms
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ ./CircularQueueAppl gcc -o CircularQueueAppl CircularQueueAppl.c
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ gcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10P./CircularQueueAppl 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ J1
+Job  added to Queue 1
+It has the same waiting time as Queue 2
+ J2
+Job J2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+ J3
+Job J4 added to Process Queue 1
+It is 2 ms faster than Queue 2
+ J4
+Job J4 added to Process Queue 2
+It is 6 ms faster than Queue 1
+ J5
+Job J5 added to Process Queue 2
+It is 1 ms faster than Queue 1
+ J6
+Job J7 added to Process Queue 1
+It is 1 ms faster than Queue 2
+ J7
+Job J7 added to Process Queue 2
+It is 6 ms faster than Queue 1
+ J8
+Job J8 added to Process Queue 2
+It is 2 ms faster than Queue 1
+ J9
+Job J10 added to Process Queue 1
+It is 1 ms faster than Queue 2
+ J10
+Job J10 added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job J1 - 2 ms
+Job J3 - 8 ms
+Job J6 - 7 ms
+Job J9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23 ms
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job J2 - 4 ms
+Job J4 - 5 ms
+Job J5 - 2 ms
+Job J7 - 4 ms
+Job J8 - 3 ms
+Job J10 - 6 ms
+-----------------
+REAR
+Total Process Time: 24 ms
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ ./CircularQueueAppl gcc -o CircularQueueAppl CircularQueueAppl.c
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ gcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10P./CircularQueueAppl 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ J1
+Job  added to Queue 1
+It has the same waiting time as Queue 2
+ J2
+Job J2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+ J3
+Job J3 added to Process Queue 1
+It is 2 ms faster than Queue 2
+ J4
+Job J4 added to Process Queue 2
+It is 6 ms faster than Queue 1
+ J5
+Job J5 added to Process Queue 2
+It is 1 ms faster than Queue 1
+ J6
+Job J6 added to Process Queue 1
+It is 1 ms faster than Queue 2
+ J7
+Job J7 added to Process Queue 2
+It is 6 ms faster than Queue 1
+ J8
+Job J8 added to Process Queue 2
+It is 2 ms faster than Queue 1
+ J9
+Job J9 added to Process Queue 1
+It is 1 ms faster than Queue 2
+ J10
+Job J10 added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job J1 - 2 ms
+Job J3 - 8 ms
+Job J6 - 7 ms
+Job J9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23 ms
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job J2 - 4 ms
+Job J4 - 5 ms
+Job J5 - 2 ms
+Job J7 - 4 ms
+Job J8 - 3 ms
+Job J10 - 6 ms
+-----------------
+REAR
+Total Process Time: 24 ms
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ 2./CircularQueueAppl gcc -o CircularQueueAppl CircularQueueAppl.c
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ gcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10P./CircularQueueAppl 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ J1
+Job  added to Queue 1
+It has the same waiting time as Queue 2
+ J2
+Job J2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+ J3
+Job J3 added to Process Queue 1
+It is -2 ms faster than Queue 2
+ J4
+Job J4 added to Process Queue 2
+It is 6 ms faster than Queue 1
+ J5
+Job J5 added to Process Queue 2
+It is 1 ms faster than Queue 1
+ J6
+Job J6 added to Process Queue 1
+It is -1 ms faster than Queue 2
+ J7
+Job J7 added to Process Queue 2
+It is 6 ms faster than Queue 1
+ J8
+Job J8 added to Process Queue 2
+It is 2 ms faster than Queue 1
+ J9
+Job J9 added to Process Queue 1
+It is -1 ms faster than Queue 2
+ J10
+Job J10 added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job J1 - 2 ms
+Job J3 - 8 ms
+Job J6 - 7 ms
+Job J9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23 ms
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job J2 - 4 ms
+Job J4 - 5 ms
+Job J5 - 2 ms
+Job J7 - 4 ms
+Job J8 - 3 ms
+Job J10 - 6 ms
+-----------------
+REAR
+Total Process Time: 24 ms
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ ./CircularQueueAppl gcc -o CircularQueueAppl CircularQueueAppl.c
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ gcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10P./CircularQueueAppl 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10P./CircularQueueAppl 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Job ¿ÒùÅˇ added to Queue 1
+It has the same waiting time as Queue 2
+
+Job J2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J3 added to Process Queue 1
+It is -2 ms faster than Queue 2
+
+Job J4 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J5 added to Process Queue 2
+It is 1 ms faster than Queue 1
+
+Job J6 added to Process Queue 1
+It is -1 ms faster than Queue 2
+
+Job J7 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J8 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J9 added to Process Queue 1
+It is -1 ms faster than Queue 2
+
+Job J10 added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job J1 - 2 ms
+Job J3 - 8 ms
+Job J6 - 7 ms
+Job J9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23 ms
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job J2 - 4 ms
+Job J4 - 5 ms
+Job J5 - 2 ms
+Job J7 - 4 ms
+Job J8 - 3 ms
+Job J10 - 6 ms
+-----------------
+REAR
+Total Process Time: 24 ms
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ ./CircularQueueAppl gcc -o CircularQueueAppl CircularQueueAppl.c
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ gcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10P./CircularQueueAppl 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Job pL o˛ added to Queue 1
+It has the same waiting time as Queue 2
+
+Job J2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J3 added to Process Queue 1
+It is 2 ms faster than Queue 2
+
+Job J4 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J5 added to Process Queue 2
+It is 1 ms faster than Queue 1
+
+Job J6 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J7 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J8 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J9 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J10 added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job J1 - 2 ms
+Job J3 - 8 ms
+Job J6 - 7 ms
+Job J9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23 ms
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job J2 - 4 ms
+Job J4 - 5 ms
+Job J5 - 2 ms
+Job J7 - 4 ms
+Job J8 - 3 ms
+Job J10 - 6 ms
+-----------------
+REAR
+Total Process Time: 24 ms
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ clear
+[H[2J[3J]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ ls
+[0m[01;32mCircularQueueAppl[0m    CircularQueue.h      MenuDrivenAppl.c
+CircularQueueAppl.c  CircularQueueImpl.h  Output
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ rm CircularQueueAppl
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ rm CircularQueueApplls[Kclear./CircularQueueAppl gcc -o CircularQueueAppl CircularQueueAppl.c
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ gcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10Prm CircularQueueAppl
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10Prm CircularQueueAppl
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kclear./CircularQueueAppl 
+
+Job ∞¸Rõ˛ added to Queue 1
+It has the same waiting time as Queue 2
+
+Job J2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J3 added to Process Queue 1
+It is 2 ms faster than Queue 2
+
+Job J4 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J5 added to Process Queue 2
+It is 1 ms faster than Queue 1
+
+Job J6 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J7 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J8 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J9 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J10 added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job J1 - 2 ms
+Job J3 - 8 ms
+Job J6 - 7 ms
+Job J9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23 ms
+
+PROCESS QUEUE 2 STATUS
+
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kclear./CircularQueueAppl 
+
+Job ∞¸Rõ˛ added to Queue 1
+It has the same waiting time as Queue 2
+
+Job J2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J3 added to Process Queue 1
+It is 2 ms faster than Queue 2
+
+Job J4 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J5 added to Process Queue 2
+It is 1 ms faster than Queue 1
+
+Job J6 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J7 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J8 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J9 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J10 added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job J1 - 2 ms
+Job J3 - 8 ms
+Job J6 - 7 ms
+Job J9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23 ms
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job J2 - 4 ms
+Job J4 - 5 ms
+Job J5 - 2 ms
+Job J7 - 4 ms
+Job J8 - 3 ms
+Job J10 - 6 ms
+-----------------
+REAR
+Total Process Time: 24 ms
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ ./CircularQueueAppl gcc -o CircularQueueAppl CircularQueueAppl.c
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ gcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10P./CircularQueueAppl 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Job –ﬁˆÇ˛ added to Queue 1
+It has the same waiting time as Queue 2
+
+Job J2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J1 added to Process Queue 1
+It is 2 ms faster than Queue 2
+
+Job J4 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J5 added to Process Queue 2
+It is 1 ms faster than Queue 1
+
+Job J1 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J7 added to Process Queue 2
+It is 6 ms faster than Queue 1
+
+Job J8 added to Process Queue 2
+It is 2 ms faster than Queue 1
+
+Job J1 added to Process Queue 1
+It is 1 ms faster than Queue 2
+
+Job J10 added to Process Queue 2
+It is 5 ms faster than Queue 1
+
+PROCESS QUEUE 1 STATUS
+
+FRONT
+-----------------
+Job J1 - 2 ms
+Job J3 - 8 ms
+Job J6 - 7 ms
+Job J9 - 6 ms
+-----------------
+REAR
+Total Process Time: 23 ms
+
+PROCESS QUEUE 2 STATUS
+
+FRONT
+-----------------
+Job J2 - 4 ms
+Job J4 - 5 ms
+Job J5 - 2 ms
+Job J7 - 4 ms
+Job J8 - 3 ms
+Job J10 - 6 ms
+-----------------
+REAR
+Total Process Time: 24 ms
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ ./CircularQueueAppl gcc -o CircularQueueAppl CircularQueueAppl.c
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ gcc -o CircularQueueAppl CircularQueueAppl.c[A]0;karthikd@Karthik-DEBIAN: ~/Templates/C/CircularQueueADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/CircularQueueADT[00m$ [10P./CircularQueueAppl 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+J1
+Job  added to Queue 1
+It has the same waiting time as Queue 2
+J1
+Job J2 added to Process Queue 2
+It is 2 ms faster than Queue 1
+J1
+Job J3 added to Process Queue 1
+It is 2 ms faster than Queue 2
+J1
+Job J4 added to Process Queue 2
+It is 6 m

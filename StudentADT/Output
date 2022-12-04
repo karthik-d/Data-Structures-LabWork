@@ -1,0 +1,344 @@
+Script started on 2020-08-29 01:30:40+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="176" LINES="44"]
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/StudentADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/StudentADT[00m$ ./StudentADTAppl
+
+Current Student List
+Empty List
+
+MAIN MENU
+1-Insert Student
+2-Delete By Register Number
+3-Search By Register Number
+4-Display All Students
+5-List Student By Category
+6-List Students With Repeated Names
+7-Exit
+Enter Choice: 1
+
+Current Student List
+Empty List
+
+INSERTION
+1-At Beginning
+2-After a Register Number End
+3-Go Back
+Enter Choice: 1
+
+Enter Register Number: 32
+Enter Student Name: Adam
+Choose Category
+1 - StateBoard
+2 - CBSE
+3 - LateralEntry
+4 - Rural
+5 - NRI
+Enter Choice: 2
+
+Student Record inserted at beginning
+
+Current Student List
+HEAD ->  32 -> END
+
+INSERTION
+1-At Beginning
+2-After a Register Number End
+3-Go Back
+Enter Choice: 2
+
+Enter Register Number: 44
+Enter Student Name: Eve
+Choose Category
+1 - StateBoard
+2 - CBSE
+3 - LateralEntry
+4 - Rural
+5 - NRI
+Enter Choice: 1
+
+Enter Preceding Register Number: 32
+
+Student Record inserted after Register Number 32
+
+Current Student List
+HEAD ->  32 -> 44 -> END
+
+INSERTION
+1-At Beginning
+2-After a Register Number End
+3-Go Back
+Enter Choice: 1
+
+Enter Register Number: 11
+Enter Student Name: Bob
+Choose Category
+1 - StateBoard
+2 - CBSE
+3 - LateralEntry
+4 - Rural
+5 - NRI
+Enter Choice: 2
+
+Student Record inserted at beginning
+
+Current Student List
+HEAD ->  11 -> 32 -> 44 -> END
+
+INSERTION
+1-At Beginning
+2-After a Register Number End
+3-Go Back
+Enter Choice: 2
+
+Enter Register Number: 24
+Enter Student Name: Adam    E Adam
+Choose Category
+1 - StateBoard
+2 - CBSE
+3 - LateralEntry
+4 - Rural
+5 - NRI
+Enter Choice: 3
+
+Enter Preceding Register Number: 11
+
+Student Record inserted after Register Number 11
+
+Current Student List
+HEAD ->  11 -> 24 -> 32 -> 44 -> END
+
+INSERTION
+1-At Beginning
+2-After a Register Number End
+3-Go Back
+Enter Choice: 2
+
+Enter Register Number: 42
+Enter Student Name: Eve
+Choose Category
+1 - StateBoard
+2 - CBSE
+3 - LateralEntry
+4 - Rural
+5 - NRI
+Enter Choice: 1
+
+Enter Preceding Register Number: 32
+
+Student Record inserted after Register Number 32
+
+Current Student List
+HEAD ->  11 -> 24 -> 32 -> 42 -> 44 -> END
+
+INSERTION
+1-At Beginning
+2-After a Register Number End
+3-Go Back
+Enter Choice: 3
+
+Current Student List
+HEAD ->  11 -> 24 -> 32 -> 42 -> 44 -> END
+
+MAIN MENU
+1-Insert Student
+2-Delete By Register Number
+3-Search By Register Number
+4-Display All Students
+5-List Student By Category
+6-List Students With Repeated Names
+7-Exit
+Enter Choice: 4
+
+CURRENT STUDENT LIST
+
+STUDENT 1
+--------------------
+Register No.: 11
+Student Name: Bob
+Category: CBSE
+--------------------
+
+STUDENT 2
+--------------------
+Register No.: 24
+Student Name: Adam
+Category: LateralEntry
+--------------------
+
+STUDENT 3
+--------------------
+Register No.: 32
+Student Name: Adam
+Category: CBSE
+--------------------
+
+STUDENT 4
+--------------------
+Register No.: 42
+Student Name: Eve
+Category: StateBoard
+--------------------
+
+STUDENT 5
+--------------------
+Register No.: 44
+Student Name: Eve
+Category: StateBoard
+--------------------
+
+Current Student List
+HEAD ->  11 -> 24 -> 32 -> 42 -> 44 -> END
+
+MAIN MENU
+1-Insert Student
+2-Delete By Register Number
+3-Search By Register Number
+4-Display All Students
+5-List Student By Category
+6-List Students With Repeated Names
+7-Exit
+Enter Choice: 5
+Choose Category
+1 - StateBoard
+2 - CBSE
+3 - LateralEntry
+4 - Rural
+5 - NRI
+Enter Choice: 2
+
+Students in CBSE Category
+
+STUDENT 1
+--------------------
+Register No.: 32
+Student Name: Adam
+Category: CBSE
+--------------------
+
+STUDENT 2
+--------------------
+Register No.: 11
+Student Name: Bob
+Category: CBSE
+--------------------
+
+Current Student List
+HEAD ->  11 -> 24 -> 32 -> 42 -> 44 -> END
+
+MAIN MENU
+1-Insert Student
+2-Delete By Register Number
+3-Search By Register Number
+4-Display All Students
+5-List Student By Category
+6-List Students With Repeated Names
+7-Exit
+Enter Choice: 6
+
+STUDENTS WITH NAME 'Adam'
+
+STUDENT 1
+--------------------
+Register No.: 32
+Student Name: Adam
+Category: CBSE
+--------------------
+
+STUDENT 2
+--------------------
+Register No.: 24
+Student Name: Adam
+Category: LateralEntry
+--------------------
+
+
+STUDENTS WITH NAME 'Eve'
+
+STUDENT 1
+--------------------
+Register No.: 44
+Student Name: Eve
+Category: StateBoard
+--------------------
+
+STUDENT 2
+--------------------
+Register No.: 42
+Student Name: Eve
+Category: StateBoard
+--------------------
+
+
+
+Current Student List
+HEAD ->  11 -> 24 -> 32 -> 42 -> 44 -> END
+
+MAIN MENU
+1-Insert Student
+2-Delete By Register Number
+3-Search By Register Number
+4-Display All Students
+5-List Student By Category
+6-List Students With Repeated Names
+7-Exit
+Enter Choice: 3
+
+Enter Register Number: 42
+
+Register No.: 42
+Student Name: Eve
+Category: StateBoard
+
+Current Student List
+HEAD ->  11 -> 24 -> 32 -> 42 -> 44 -> END
+
+MAIN MENU
+1-Insert Student
+2-Delete By Register Number
+3-Search By Register Number
+4-Display All Students
+5-List Student By Category
+6-List Students With Repeated Names
+7-Exit
+Enter Choice: 3
+
+Enter Register Number: 99
+
+Student Not Found
+
+
+Current Student List
+HEAD ->  11 -> 24 -> 32 -> 42 -> 44 -> END
+
+MAIN MENU
+1-Insert Student
+2-Delete By Register Number
+3-Search By Register Number
+4-Display All Students
+5-List Student By Category
+6-List Students With Repeated Names
+7-Exit
+Enter Choice: 2
+
+Enter Register Number: 11
+
+Following Student Record was Deleted
+
+Register No.: 11
+Student Name: Bob
+Category: CBSE
+
+Current Student List
+HEAD ->  24 -> 32 -> 42 -> 44 -> END
+
+MAIN MENU
+1-Insert Student
+2-Delete By Register Number
+3-Search By Register Number
+4-Display All Students
+5-List Student By Category
+6-List Students With Repeated Names
+7-Exit
+Enter Choice: 7
+]0;karthikd@Karthik-DEBIAN: ~/Templates/C/StudentADT[01;32mkarthikd@Karthik-DEBIAN[00m:[01;34m~/Templates/C/StudentADT[00m$ exit
+exit
+
+Script done on 2020-08-29 01:34:00+05:30 [COMMAND_EXIT_CODE="55"]
