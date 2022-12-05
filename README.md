@@ -25,7 +25,7 @@ Single script, pluggable implementations are available for the following:
 
 ## [Complete Abstract Data Types](./Complete-ADTs)
 
-An [ADT](/https://en.wikipedia.org/wiki/Abstract_data_type) implementation involves three components:
+[An ADT implementation](/https://en.wikipedia.org/wiki/Abstract_data_type) involves three components:
 1. The data structure (defined in `.h` files)
 2. An interfacing implementation with functions to store & retreive data (defined as `..Impl.c` files)
 3. The abstract application level, that use the interfacing implementation (defined as `..Appl.c` files)
