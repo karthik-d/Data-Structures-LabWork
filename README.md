@@ -3,11 +3,12 @@ Programs and complete ADTs for common data structures implemented in C for the c
 
 ## [Complete Abstract Data Types](./Complete-ADTs)
 
-A structured ADT implementations for the following data structures are included.
-An ADT implementation involves three components:
+An [ADT](/https://en.wikipedia.org/wiki/Abstract_data_type) implementation involves three components:
 1. The data structure (defined in `.h` files)
 2. An interfacing implementation with functions to store & retreive data (defined as `..Impl.c` files)
 3. The abstract application level, that use the interfacing implementation (defined as `..Appl.c` files)
+
+A structured ADT implementations for the following data structures are included.
 
 - **Array-based List**
   - *Application*: [Numeric list with search and sort techniques applied: Linear & Binary Search, Shell & Selection Sort](./Complete-ADTs/ListADT)
