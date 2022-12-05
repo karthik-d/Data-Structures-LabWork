@@ -1,6 +1,28 @@
 # UCS1312-Data-Structures-LabWork
 Programs and complete ADTs for common data structures implemented in C for the coursework on UCS1312: Data Structures course 
 
+## Standalone Implementations
+
+Single script, pluggable implementations are available for the following:
+
+### [Algorithms & Problems](./Algorithms)
+- Dijkstra's Shortest Path (in Python)
+- Floyd-Warshal Shortest Path (in Python)
+- The Josephus Problem
+- Polynomial Representation and Operation using Linked List
+- Sorts and Searches
+
+### [Data Structures](./Data-Structures)
+- Stack (with Array)
+- Queue (with Array)
+- Doubly Linked List
+- Circular Linked List
+- Binary Search Tree (BST)
+- AVL Tree
+- Graphs (Adjacency List)
+- Graphs (Adjacency Matrix)
+- Priority Queue
+
 ## [Complete Abstract Data Types](./Complete-ADTs)
 
 An [ADT](/https://en.wikipedia.org/wiki/Abstract_data_type) implementation involves three components:
