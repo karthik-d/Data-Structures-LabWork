@@ -1,5 +1,5 @@
 # UCS1312-Data-Structures-LabWork
-Programs and complete ADTs for common data structures implemented in C for the coursework on UCS1312: Data Structures course 
+Programs and complete ADTs for common data structures implemented in C for the coursework on UCS1312: Data Structures course. 
 
 ## Standalone Implementations
 
